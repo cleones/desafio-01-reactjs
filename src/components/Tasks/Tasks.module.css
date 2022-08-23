@@ -1,0 +1,64 @@
+.Tasks {
+    width: 100%;
+}
+
+.taskHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px
+}
+
+.taskHeaderInfoGroup {
+    display: flex;
+    align-items: center;
+    gap: 3px
+}
+
+.taskCreated {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.taskDone {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--purple);
+}
+
+.taskCount {
+    background: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emptyListWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 64px;
+    font-size: 16px;
+    color: var(--gray-300);
+    text-align: center;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+}
+
+.emptyListWrapper strong{
+    display: block;
+    margin-bottom: 3px;
+    font-weight: 700
+}
+
+.emptyListWrapper span{
+    display: block;
+    font-weight: 400
+}

@@ -1,0 +1,10 @@
+.content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+.content form {
+    display: flex;
+    gap: 8px;
+    margin-top: -1.5rem;
+    margin-bottom: 4rem;
+}
